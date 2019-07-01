@@ -58,7 +58,7 @@ module.exports = {
           title: '数据结构',
           collapsable: false,
           children: [
-            '/Data/DataStructure',
+            '/Data/DataStructure/',
           ]
         }
       ],
@@ -76,16 +76,16 @@ module.exports = {
           title: '算法',
           collapsable: false,
           children: [
-            '/Data/desginPatter',
+            '/Data/Algt/',
           ]
         }
       ],
       '/Data/LeetCode/': [
         {
-          title: 'Leetcode',
+          title: 'LeetCode',
           collapsable: false,
           children: [
-            '/Data/LeetCode',
+            '/Data/LeetCode/',
           ]
         }
       ]
