@@ -58,7 +58,7 @@ module.exports = {
           title: '数据结构',
           collapsable: false,
           children: [
-            '/Data/DataStructure/README.md',
+            '/Data/DataStructure',
           ]
         }
       ],
@@ -67,7 +67,25 @@ module.exports = {
           title: '设计模式',
           collapsable: false,
           children: [
-            '/Data/desginPatter/README.md',
+            '/Data/desginPatter/',
+          ]
+        }
+      ],
+      '/Data/Algt/': [
+        {
+          title: '算法',
+          collapsable: false,
+          children: [
+            '/Data/desginPatter',
+          ]
+        }
+      ],
+      '/Data/LeetCode/': [
+        {
+          title: 'Leetcode',
+          collapsable: false,
+          children: [
+            '/Data/LeetCode',
           ]
         }
       ]

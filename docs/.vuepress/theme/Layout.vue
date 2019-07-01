@@ -95,6 +95,7 @@ export default {
   },
 
   mounted() {
+    console.log(this.sidebarItems);
   },
 
   methods: {
