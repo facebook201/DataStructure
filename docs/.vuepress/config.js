@@ -77,6 +77,7 @@ module.exports = {
           collapsable: false,
           children: [
             '/Data/Algt/',
+            '/Data/Algt/sort.md'
           ]
         }
       ],
