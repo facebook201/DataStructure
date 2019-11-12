@@ -16,20 +16,11 @@ module.exports = {
     editLinkText: '在 GitHub 上编辑此页',
     nav: [
       { 
-        text: '数据结构',
+        text: '数据结构与算法',
         items: [
           {
-            text: '数据结构',
-            link: '/Data/DataStructure/'
-          }
-        ]
-      },
-      { 
-        text: '算法',
-        items: [
-          {
-            text: '算法',
-            link: '/Data/Algt/'
+            text: '排序算法',
+            link: '/Data/DataStructure/sort/'
           }
         ]
       },
@@ -53,12 +44,12 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/Data/DataStructure/': [
+      '/Data/DataStructure/sort/': [
         {
-          title: '数据结构',
+          title: '排序算法',
           collapsable: false,
           children: [
-            '/Data/DataStructure/',
+            '/Data/DataStructure/sort/',
           ]
         }
       ],
@@ -68,16 +59,6 @@ module.exports = {
           collapsable: false,
           children: [
             '/Data/desginPatter/',
-          ]
-        }
-      ],
-      '/Data/Algt/': [
-        {
-          title: '算法',
-          collapsable: false,
-          children: [
-            '/Data/Algt/',
-            '/Data/Algt/sort.md'
           ]
         }
       ],
