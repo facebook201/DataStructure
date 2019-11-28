@@ -1,6 +1,6 @@
 
 module.exports = {
-  title: '基础硬知识',
+  title: '数据结构与算法',
   base: '/DataStructure/', // 设置站点根目录
   description: '飘飘乎如遗世独立 羽化而登仙',
   head: [
@@ -30,6 +30,10 @@ module.exports = {
           {
             text: '设计模式',
             link: '/Data/desginPatter/'
+          },
+          {
+            text: '设计原则',
+            link: '/Data/desgin/'
           }
         ]
       },
@@ -59,6 +63,15 @@ module.exports = {
           collapsable: false,
           children: [
             '/Data/desginPatter/',
+          ]
+        }
+      ],
+      '/Data/desgin/': [
+        {
+          title: '设计原则',
+          collapsable: false,
+          children: [
+            '/Data/desgin/',
           ]
         }
       ],

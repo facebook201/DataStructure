@@ -17,7 +17,6 @@ AOP（面向切面编程）主要是把一些跟核心业务逻辑模块无关�
  * @param fn    创建的逻辑函数
  * @param count 创建的节点数
  */
-
 const timeChunk = function (array, fn, count) {
   var obj, j;
   var len = array.length;
@@ -28,10 +27,7 @@ const timeChunk = function (array, fn, count) {
       fn(obj);
     }
   };
-
-  
 };
-
 ```
 
 
